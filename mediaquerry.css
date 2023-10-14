@@ -1,0 +1,64 @@
+@media(max-width:600px) {
+    /*
+    for phones
+   
+    */
+    body{
+        background-color: red;
+    }
+    div::after{
+        content: 'this is for mobile compatibility';
+    }
+}
+@media(min-width:600px){ /*600px-768px/*
+    /*
+    potrait table and big phones
+    */
+    body{
+        background-color: greenyellow;
+    }
+    div::after{
+        content: 'potrait tablers and big phones';
+    }
+}
+@media(min-width:768px){ /*768px-992px*/
+    /*
+    tablet
+    */
+    body{
+        background-color: blue;
+    }
+    div::after{
+        content: 'this is for tablests';
+    }
+}
+@media(min-width:992px){ /*992px-1200px*/
+    /*
+    for laptop and desktop
+    */
+    body{
+        background-color: brown;
+    }
+    div::after{
+        content: 'for laptop and desktop';
+    }
+}
+@media(min-width:1200px){ /*beyond-1200px*/
+    /*
+    this is for larger screen
+    */
+    body{
+        background-color: orange;
+    }
+    div::after{
+        content: 'this is for larger screen';
+    }
+}
+    div{
+        text-align: center;
+        font-size: x-large;
+    }
+
+    
+    
+      
